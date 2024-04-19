@@ -8,7 +8,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
 dist-ssr
 *.local
 package-lock.json
@@ -25,3 +24,9 @@ README.md
 *.sln
 *.sw?
 .env
+
+
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/Matias-Paz/Apuntes-Ifts.git
+# git push -u origin main

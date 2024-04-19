@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useAuthContext } from "../../context/AuthContext";
-import { USER_NAME, USER_PASSWORD } from "../../consts/consts.js";
 import loginImg from "/login-img.webp";
 import iconPassword from "/icon-password.webp";
 import iconCorrect from "/icon-correct.png";
@@ -23,9 +22,12 @@ export function Login() {
 
   const handleSubmit = e => {
     e.preventDefault();
-    setIsPassword(password === USER_PASSWORD);
-    setIsUsername(username === USER_NAME);
-    if (username !== USER_NAME || password !== USER_PASSWORD) {
+    setIsPassword(password === import.meta.env.VITE_USER_PASSWORD);
+    setIsUsername(username === import.meta.env.VITE_USER_NAME);
+    if (
+      username !== import.meta.env.VITE_USER_NAME ||
+      password !== import.meta.env.VITE_USER_PASSWORD
+    ) {
       setText("El usuario o la contraseña son incorrectos");
     } else {
       setText("El usuario y la contraseña son correctos");
