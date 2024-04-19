@@ -1,0 +1,44 @@
+.workProgress {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  /* padding-top: 2rem; */
+  padding-bottom: 5rem;
+}
+
+.workProgress img {
+  order: 2;
+  height: 350px;
+  /* height: 300px; */
+}
+
+.workProgress__text {
+  display: grid;
+  gap: 1rem;
+  width: 80%;
+  max-width: 28rem;
+}
+
+@media (min-width: 768px) {
+  .workProgress {
+    padding-top: unset;
+    /* height: 300px; */
+  }
+
+  .workProgress img {
+    order: unset;
+  }
+
+  .workProgress__text {
+    text-align: left;
+    padding-bottom: 5rem;
+    width: 40%;
+  }
+}

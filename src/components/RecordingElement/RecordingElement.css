@@ -1,0 +1,231 @@
+.recordingElement {
+  display: grid;
+  gap: 1rem;
+}
+.recordingElement h3 {
+  color: var(--primary-contrast);
+}
+
+.recordingElement__buttons {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.recordingElement__button {
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+
+  border: none;
+  border: 1px solid var(--tertiary);
+  border-radius: 1rem;
+  background-color: transparent;
+  width: 100%;
+}
+
+.recordingElement__button--active {
+  background-color: var(--tertiary);
+  color: var(--secondary-contrast);
+}
+
+.recordingElement__buttons button:hover {
+  color: var(--tertiary);
+  background-color: transparent;
+}
+
+.recording__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* align-items: center; */
+  min-height: 55rem;
+}
+
+.recording__item {
+  border-radius: 1rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+  padding: 1rem 1.5rem;
+  flex: 31rem;
+  align-items: center;
+  height: 12rem;
+
+  box-shadow: 0 0 10px 2px #0000004b;
+  border-radius: 0.5em;
+  background-color: var(--sextenary-contrast);
+}
+
+.recording__text {
+  height: min-content;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.recording__item:hover h4 {
+  color: var(--secondary-contrast);
+}
+
+.recording__item:hover {
+  color: var(--secondary-contrast);
+  background-color: var(--tertiary);
+}
+
+.recording__item h4 {
+  font-size: 1.2rem;
+  color: var(--primary-contrast);
+}
+
+.recording__date {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.recording__date span {
+  font-weight: bold;
+}
+
+.recording__date img {
+  width: 15px;
+  height: 15px;
+  filter: var(--tertiary-filter);
+}
+
+.recording__item:hover .recording__date img {
+  filter: var(--primary-filter);
+}
+
+.recording__img-data {
+  height: 100%;
+
+  width: 50%;
+  display: flex;
+  max-width: 15rem;
+}
+
+.recording__img {
+  display: flex;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.recordingElement__pagination {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* gap: 0.1rem; */
+  /* gap: 1rem; */
+}
+
+.recordingElement__pagination button {
+  /* min-width: 3rem; */
+
+  padding: 0.5rem;
+  /* padding: 0.7rem 2rem; */
+  min-width: 2rem;
+  max-width: 9rem;
+  flex: 10px;
+  border: none;
+  color: var(--tertiary);
+  border-radius: 0.2rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: var(--tertiary);
+  color: var(--secondary-contrast);
+  max-width: 1rem;
+}
+
+.recordingElement__pagination button:hover {
+  border: 1px solid var(--tertiary);
+  background-color: var(--secondary-contrast);
+
+  color: var(--tertiary);
+}
+
+.recordingElement__pagination .recordingElement__button--disable,
+.recordingElement__pagination .recordingElement__button--disable:hover {
+  cursor: unset;
+  background-color: var(--sextenary-contrast);
+  color: var(--primary-contrast);
+  border-color: transparent;
+}
+
+.recordingElement__pagination .recordingElement__button--width {
+  /* background-color: red; */
+  max-width: 1rem;
+}
+
+.recordingElement__pagination .recordingElement__button--active {
+  background-color: transparent;
+  color: var(--tertiary);
+  border-color: var(--tertiary);
+}
+
+.recordingElement__legend {
+  border: 1px dashed var(--tertiary);
+  border-radius: 1rem;
+  padding: 0.7rem 0.8rem 0.7rem 1.3rem;
+  /* text-align: center; */
+  display: flex;
+  /* align-items: start; */
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.recordingElement__legend--start {
+  align-items: start;
+}
+
+.recordingElement__legend img {
+  width: 20px;
+  height: 20px;
+  filter: var(--secondary-filter);
+}
+
+.recordingElement__legend--primary {
+  /* border: 1px dashed var(--tertiary); */
+  margin-top: 1rem;
+}
+
+@media (min-width: 600px) {
+  .recording__img-data {
+    height: unset;
+  }
+}
+
+@media (min-width: 768px) {
+  .recording__item {
+    height: unset;
+    gap: 0.5rem;
+  }
+
+  .recordingElement__pagination button {
+    min-width: 3rem;
+  }
+
+  .recordingElement__pagination {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .recording__img-data {
+    width: 100%;
+  }
+
+  .recordingElement__button {
+    width: unset;
+  }
+}
+
+@media (min-width: 1240px) {
+  .recording__items {
+    min-height: 21rem;
+  }
+
+  .recording__item {
+    max-height: 10rem;
+  }
+}

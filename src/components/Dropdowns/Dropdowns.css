@@ -1,0 +1,149 @@
+/* dropdowns */
+
+.dropdowns {
+  width: 80%;
+  display: grid;
+  gap: 1.5em;
+  position: relative;
+  transition: opacity 0.3s linear;
+  overflow: visible;
+}
+
+.dropdowns__container {
+  display: grid;
+  gap: 1.5em;
+}
+
+.dropdown {
+  /* color: var(--secondary-contrast); */
+  /* background-color: var(--novena); */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown__checkbox {
+  pointer-events: none;
+}
+
+.dropdown__checkbox--none {
+  display: none;
+}
+
+.dropdown__menu {
+  position: relative;
+  width: 100%;
+  place-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 1.7em 0;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-bottom: 2px solid var(--tertiary-contrast);
+}
+
+.dropdown__title {
+  max-width: 80%;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.dropdowns__icon {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  padding: 0.6em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dropdown__icon {
+  display: flex;
+  right: 0;
+  position: absolute;
+  transition: opacity 0.3s;
+  font-size: 2.5em;
+  height: 25px;
+  width: 25px;
+}
+
+.dropdown__icon img {
+  filter: var(--secondary-filter);
+}
+
+.dropdown__icon--hidden {
+  font-size: 3.2em;
+  opacity: 0;
+}
+
+.dropdown__checkbox:checked + .dropdown__menu .dropdown__icon--show {
+  opacity: 0;
+  transition: 0.3s opacity;
+}
+
+.dropdown__checkbox:checked + .dropdown__menu .dropdown__icon--hidden {
+  opacity: 1;
+  transition: opacity 0.3s 0.3s;
+}
+
+.dropdown__checkbox:not(:checked) + .dropdown__menu .dropdown__icon--show {
+  opacity: 1;
+  transition: 0.3s opacity;
+}
+
+.dropdown__content {
+  position: relative;
+  padding-top: 2rem;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  max-height: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown .dropdown__checkbox:checked + .dropdown__menu + .dropdown__content {
+  max-height: max-content;
+}
+
+.dropdown__info {
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  padding-bottom: 1.5em;
+}
+
+.dropdown__lists {
+  padding-bottom: 1em;
+  padding-left: 2em;
+  display: grid;
+  gap: 0.5em;
+}
+
+.dropdown__list {
+  list-style: unset;
+}
+
+.dropdown__list a {
+  color: inherit;
+}
+
+.dropdown__list a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .dropdown__icon {
+    height: 35px;
+    width: 35px;
+  }
+}

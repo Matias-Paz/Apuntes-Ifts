@@ -1,0 +1,93 @@
+.modalClass {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #000000a8;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s linear;
+}
+
+.modalClass--opacity {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modalClass__container {
+  margin-top: 69px;
+  background-color: var(--novena-contrast);
+  position: relative;
+  width: 90%;
+  box-shadow: 0px 0px 10px 2px #00000074;
+  border-radius: 10px;
+  max-width: 1440px;
+}
+
+.modalClass__img {
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  max-height: 75vh;
+  max-width: 1440px;
+  border-radius: 10px;
+}
+
+.btn__modalClass {
+  top: -15px;
+  right: -15px;
+  height: 29px;
+  width: 29px;
+}
+
+.cta__modalClass {
+  bottom: -10px;
+  left: -10px;
+  width: 50px;
+  height: 50px;
+}
+
+.btn__modalClass,
+.cta__modalClass {
+  position: absolute;
+
+  border-radius: 50%;
+
+  background-color: var(--tertiary);
+  color: var(--secondary-contrast);
+  border: 1px solid var(--tertiary);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px #00000074;
+}
+
+.btn__modalClass:hover,
+.cta__modalClass:hover {
+  color: var(--tertiary);
+  background-color: var(--quaternary-contrast);
+}
+
+.cta__modalClass img {
+  display: flex;
+  height: 25px;
+  filter: var(--primary-filter);
+}
+
+.cta__modalClass:hover img {
+  filter: var(--secondary-filter);
+}
+
+@media (min-width: 768px) {
+  .modalClass__container {
+    width: 85%;
+  }
+  .cta__modalClass {
+    left: -25px;
+  }
+}

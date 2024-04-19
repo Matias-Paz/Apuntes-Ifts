@@ -1,0 +1,79 @@
+.timeble {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.timetable__title {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.timetable__date {
+  padding-top: 0.5rem;
+}
+
+.timetable__class {
+  width: 100%;
+}
+
+.timetable__class--width {
+  width: 50%;
+}
+
+.timetable__classesToday {
+  padding-top: 0.2rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.timetable__date,
+.timetable__subtitle {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.timetable__subtitle--align {
+  align-items: start;
+}
+
+.timetable h3 {
+  color: var(--primary-contrast);
+}
+
+.timetable__paragraph--capitalize {
+  text-transform: capitalize;
+}
+
+.timetable__subtitle--primary {
+  align-items: start;
+  padding-top: 0.5rem;
+}
+
+.timetable__content {
+  display: grid;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.timetable__items {
+  display: grid;
+  gap: 0.5rem;
+}
+
+@media (min-width: 520px) {
+  .timetable__content h4 {
+    margin-top: unset;
+  }
+
+  .timetable__class {
+    display: flex;
+    gap: 0.5rem;
+    width: unset;
+  }
+}

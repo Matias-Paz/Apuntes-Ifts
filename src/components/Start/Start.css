@@ -1,0 +1,76 @@
+.start__main {
+  display: grid;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.start__figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.start__figure--secondary {
+  min-height: unset;
+  height: 25rem;
+}
+
+.start__img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  display: flex;
+}
+
+.start__title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-top: 35vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  max-width: 1200px;
+
+  padding: clamp(0.4em, 0.4em, 1em);
+  line-height: clamp(1.7rem, 3vw + 1rem, 4.5rem);
+  font-size: clamp(1.7rem, 3vw + 1rem, 4rem);
+  text-transform: uppercase;
+  background-color: #0d7738;
+  border-radius: 0.2em;
+
+  color: #fff;
+  font-weight: unset;
+}
+
+.start__title--secondary {
+  margin-top: calc(11rem - 25px);
+}
+
+.start__paragraph {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 1200px;
+  margin-top: calc(40vh + 103px);
+  padding: 1em;
+  border-radius: 0.5em;
+
+  color: var(--tertiary);
+  background-color: var(--primary-transparent-contrast);
+
+  font-weight: bold;
+}
+
+/* modo libro secreto */
+.start__title {
+  background-color: #0f75bf;
+}

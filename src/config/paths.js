@@ -1,0 +1,12 @@
+export const HOME = "/";
+export const LOGIN = "/login";
+export const PRIVATE = "/privado";
+export const CALENDAR = "/calendario";
+export const CORRELATIVIDADES = "/correlatividades";
+export const SCHEDULE = "/horarios";
+export const HOMEPRIVATE = "/privado/inicio";
+export const LOGIC = "/privado/logica";
+export const DATABASE = "/privado/datos";
+export const TECHNIQUE = "/privado/tecnica";
+export const MATH = "/privado/matematica";
+export const RECORDING = "/privado/grabacion";

@@ -1,0 +1,34 @@
+.loading {
+  width: 100%;
+  height: 100vh;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--error-container);
+  align-items: center;
+}
+
+.loading__img {
+  width: 65vw;
+  animation: 1s infinite infiniteRotate;
+}
+
+.loading__img--dance {
+  filter: drop-shadow(0 0px 2px #f9f9f9);
+}
+
+@media (min-width: 425px) {
+  .loading__img {
+    width: 20rem;
+  }
+}
+
+@keyframes infiniteRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

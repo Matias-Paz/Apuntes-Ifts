@@ -1,0 +1,34 @@
+.quiz {
+  max-height: 3rem;
+  padding: 0.7rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  box-shadow: 0px 0px 10px 2px #0000004b;
+
+  color: var(--quaternary-contrast);
+
+  background-color: var(--tertiary);
+  font-weight: bold;
+  border-radius: 0.3em;
+  width: 100%;
+}
+
+.quiz:hover {
+  color: var(--tertiary);
+  background-color: var(--quaternary-contrast);
+}
+
+.quiz__svg {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (768px < width) {
+  .quiz {
+    max-width: 20rem;
+  }
+}
