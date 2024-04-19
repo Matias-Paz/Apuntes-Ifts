@@ -1,6 +1,7 @@
 import iconSeguridad from "/icon-seguiridad.png";
 import StopDog from "/dog-stop.png";
 import "./StartPublic.css";
+import { LOGIN } from "../../config/paths";
 
 const StartPublic = () => {
   return (
@@ -26,7 +27,7 @@ const StartPublic = () => {
 
         <a
           className="startPublic__link"
-          href={"https://apuntesifts.netlify.app/login"}
+          href={`${import.meta.env.VITE_API}${LOGIN}`}
         >
           <span>Inicio de Sesión</span>
           <svg
