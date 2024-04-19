@@ -1,4 +1,5 @@
-import Dropdowns from "../../../components/Dropdowns/Dropdowns";
+// import Dropdowns from "../../../components/Dropdowns/Dropdowns";
+import WorkProgress from "../../../components/WorkProgress/WorkProgress";
 import YoutubeRecording from "../../../components/YoutubeRecording/YoutubeRecording";
 import imgVideo from "/video-matematica.webp";
 
@@ -26,7 +27,8 @@ const MathematicalAnalysisClass2 = ({ numericId }) => {
         imgVideoSecondary={imgVideo}
         text={`Por favor, les solicitamos discreción al ver el video y evitar compartirlo.`}
       />
-      <section className="classSubjects__section section" id="topics">
+      <WorkProgress />
+      {/* <section className="classSubjects__section section" id="topics">
         <h4 className="title">Apuntes</h4>
         <Dropdowns links={dropdownsMathematicalClass2} page={numericId} />
 
@@ -35,7 +37,6 @@ const MathematicalAnalysisClass2 = ({ numericId }) => {
           id={dropdownsMathematicalClass2[0].id}
         >
           <h5>{dropdownsMathematicalClass2[0].title}</h5>
-          {/* <p className="classSubjects__grid--color">hola</p> */}
         </div>
 
         <div
@@ -53,7 +54,7 @@ const MathematicalAnalysisClass2 = ({ numericId }) => {
           <h5>{dropdownsMathematicalClass2[2].title}</h5>
           <p className="classSubjects__grid--color">hola</p>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
