@@ -202,13 +202,15 @@
     gap: 0.5rem;
   }
 
-  .recordingElement__pagination button {
-    min-width: 3rem;
+  .recordingElement__pagination {
+    /* justify-content: center; */
+    max-width: 41rem;
+    margin: 0 auto;
+    gap: 0.5rem;
   }
 
-  .recordingElement__pagination {
-    justify-content: center;
-    gap: 0.5rem;
+  .recordingElement__pagination button {
+    min-width: 3rem;
   }
 
   .recording__img-data {
@@ -223,6 +225,7 @@
 @media (min-width: 1240px) {
   .recording__items {
     min-height: 21rem;
+    gap: 0.5rem;
   }
 
   .recording__item {

@@ -124,6 +124,12 @@
   margin-bottom: 0.5rem;
 }
 
+.classSubjects__flex--wrap {
+  row-gap: 0.4rem;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+}
+
 .classSubjects__paragraph--bold {
   font-weight: bold;
 }
@@ -264,6 +270,10 @@
 
 .classSubjects__link:hover {
   text-decoration: unset;
+}
+
+.classSubjects__flex--wrap .classSubjects__listItem {
+  margin-top: unset;
 }
 
 .classSubjects__listItem {

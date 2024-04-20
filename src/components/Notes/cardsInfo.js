@@ -1,3 +1,4 @@
+import { flushSync } from "react-dom";
 import { DATABASE, LOGIC, MATH, TECHNIQUE } from "../../config/paths";
 
 export const cardsBase = [
@@ -95,9 +96,10 @@ export const cardsMath = [
     disable: false,
   },
   {
-    title: "Tercera Clase",
+    title: "Practica de actividad",
     teacher: "Graciela Medici",
     date: "18-04-2024",
-    disable: true,
+    link: `${import.meta.env.VITE_API}${MATH}/3#start`,
+    disable: false,
   },
 ];

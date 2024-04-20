@@ -84,6 +84,7 @@ export function createIconSecondary(technique) {
 //     },
 //   ];
 // }
+
 export function createIconTertiary(technique) {
   return [
     {

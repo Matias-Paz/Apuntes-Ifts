@@ -1,6 +1,7 @@
 import PreviousAndNextLink from "../../components/PreviousAndNextLink/PreviousAndNextLink";
 import {
-  createIconPrimary,
+  createIconSecondary,
+  createIconTertiary,
   createIconRecord,
 } from "../../utils/createIcons.js";
 import Header from "../../components/Header/Header.jsx";
@@ -8,6 +9,7 @@ import Start from "../../components/Start/Start";
 import Error from "../Error/Error";
 import Class1 from "./MathematicalAnalysisClass/MathematicalAnalysisClass1.jsx";
 import Class2 from "./MathematicalAnalysisClass/MathematicalAnalysisClass2.jsx";
+import Class3 from "./MathematicalAnalysisClass/MathematicalAnalysisClass3.jsx";
 import { useParams } from "react-router-dom";
 import Footer from "../../components/Footer/Footer.jsx";
 
@@ -15,6 +17,7 @@ const classMathematicalAnalysisDefault = "Ocurrió un error";
 const classesMathematicalAnalysis = {
   1: Class1,
   2: Class2,
+  3: Class3,
 };
 
 const MathematicalAnalysis = () => {
@@ -31,9 +34,13 @@ const MathematicalAnalysis = () => {
   const isFirstClass = numericId === minId;
   const isLastClass = numericId === maxId;
 
-  // Elegir ícono basado en la clase
   const mathematicalIcon =
-    numericId !== 2 ? createIconPrimary(page) : createIconRecord(page);
+    numericId === 1
+      ? createIconSecondary(page)
+      : numericId === 2
+      ? createIconTertiary(page)
+      : createIconRecord(page);
+
   const ClassComponent = classesMathematicalAnalysis[numericId];
 
   if (isNaN(numericId) || numericId < minId || numericId > maxId) {

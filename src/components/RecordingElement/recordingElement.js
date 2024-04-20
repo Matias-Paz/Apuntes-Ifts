@@ -155,4 +155,12 @@ export const allRecordings = [
     img: "/video-tecnica.webp",
     link: "https://www.youtube.com/watch?v=CtNcRtcQ950",
   },
+  {
+    class: "technique",
+    title: "Más operadores de Python",
+    date: "20-04-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://youtu.be/lXkyl7c8M2E",
+  },
 ];
