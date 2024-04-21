@@ -15,19 +15,16 @@ const Error = () => {
       <main className="error">
         <section className="error__container container">
           <a
-            href="/#start"
+            href={import.meta.env.VITE_API}
             aria-label="boton de inicio"
             className="error__button error__button--right"
             onClick={goBack}
           >
             <img src={iconHome} alt="icono de inicio" />
           </a>
-          <button
-            className="error__button error__button--left"
-            onClick={goBack}
-          >
+          <a onClick={goBack} className="error__button error__button--left">
             <img src={arrowRight} alt="icono de derecha" />
-          </button>
+          </a>
           <h1> ¡Oops! </h1>
           <p>Lo sentimos, la página que buscas no se ha encontrado</p>
         </section>

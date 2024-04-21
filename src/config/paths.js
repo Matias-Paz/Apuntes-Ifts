@@ -10,3 +10,4 @@ export const DATABASE = "/privado/datos";
 export const TECHNIQUE = "/privado/tecnica";
 export const MATH = "/privado/matematica";
 export const RECORDING = "/privado/grabacion";
+export const VIDEO = "/privado/grabacion/:id";

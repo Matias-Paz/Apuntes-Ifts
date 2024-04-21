@@ -18,14 +18,16 @@ import {
   RECORDING,
   SCHEDULE,
   TECHNIQUE,
+  VIDEO,
 } from "./config/paths";
 import Login from "./pages/Login/Login";
 import Recording from "./pages/Recording/Recording.jsx";
 import { AuthContextProvider } from "./context/AuthContext";
-import PublicRoute from "./router/PublicRoute ";
+import PublicRoute from "./router/PublicRoute";
 import PrivateRoute from "./router/PrivateRoute";
 
 // Componentes para carga diferida con React.lazy
+// const Video = React.lazy(() => import("./pages/Video/Video.jsx"));
 const Calendar = React.lazy(() => import("./pages/Calendar/Calendar"));
 const Correlation = React.lazy(() => import("./pages/Correlation/Correlation"));
 const Timetable = React.lazy(() => import("./pages/Timetable/Timetable"));
@@ -73,10 +75,10 @@ const App = () => {
             <Route path={CALENDAR} element={<Calendar />} />
             <Route path={CORRELATIVIDADES} element={<Correlation />} />
             <Route path={SCHEDULE} element={<Timetable />} />
+            {/* <Route path={VIDEO} element={<Video />} /> */}
             <Route path="*" element={<Error />} />
           </Routes>
         </Suspense>
-        {/* <Footer /> */}
       </BrowserRouter>
     </AuthContextProvider>
   );

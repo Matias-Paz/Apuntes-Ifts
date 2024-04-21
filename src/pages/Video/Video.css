@@ -1,0 +1,69 @@
+.video {
+  display: grid;
+  gap: 1rem;
+}
+.video h3 {
+  color: var(--primary-contrast);
+}
+
+.video__container {
+  display: grid;
+}
+
+.video__title {
+  display: grid;
+  align-items: center;
+  padding: 1.5rem 0;
+  gap: 0.5rem;
+}
+
+.video__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.video__list {
+  min-width: 20rem;
+  display: grid;
+  max-height: 360px;
+  flex: 1;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.video__button {
+  padding: 1rem 0.5rem 1rem 1rem;
+  border: none;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--sextenary-contrast);
+  cursor: pointer;
+}
+
+.video__button:hover {
+  background-color: transparent;
+}
+
+.video__button--active {
+  background-color: var(--tertiary);
+}
+
+.video__paragraph--bold {
+  font-weight: bold;
+}
+
+.video__button img {
+  max-width: 90px;
+  border-radius: 0.2rem;
+}
+
+.custom-youtube-player {
+  background-color: transparent;
+  display: flex;
+  max-width: 90vw; /* Establece el ancho máximo del reproductor de YouTube */
+}

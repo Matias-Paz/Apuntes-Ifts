@@ -59,32 +59,6 @@ export function createIconSecondary(technique) {
   ];
 }
 
-// export function createIconQuaternary(technique) {
-//   return [
-//     {
-//       href: `${PRIVATE}/${technique}#start`,
-//       ariaLabel: "Botón de inicio",
-//       img: "/icon-home.png",
-//       alt: "icono de inicio",
-//       text: "Inicio",
-//     },
-//     {
-//       href: `${PRIVATE}/${technique}#grabacion`,
-//       ariaLabel: "Botón de temas",
-//       img: "/icon-recording.png",
-//       alt: "icono de temas",
-//       text: "Grabacíon",
-//     },
-//     {
-//       href: `${PRIVATE}/${technique}#topics`,
-//       ariaLabel: "Botón de temas",
-//       img: "/icon-note.png",
-//       alt: "icono de temas",
-//       text: "Temas",
-//     },
-//   ];
-// }
-
 export function createIconTertiary(technique) {
   return [
     {

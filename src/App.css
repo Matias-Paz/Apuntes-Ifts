@@ -125,6 +125,8 @@
   --quinary-filter: brightness(0) saturate(100%) invert(29%) sepia(68%)
     saturate(3825%) hue-rotate(137deg) brightness(96%) contrast(87%);
 
+  --sextenary-filter: brightness(0) saturate(100%);
+
   --primary-contrast: #000;
   --secondary-contrast: #fff;
   --tertiary-contrast: #1b75bc;
@@ -165,6 +167,9 @@
   --quaternary-filter: brightness(0) saturate(100%) invert(35%) sepia(96%)
     saturate(562%) hue-rotate(168deg) brightness(94%) contrast(95%);
   --quinary-filter: brightness(0) saturate(100%);
+
+  --sextenary-filter: brightness(0) saturate(100%) invert(29%) sepia(68%)
+    saturate(3825%) hue-rotate(137deg) brightness(96%) contrast(87%);
 
   --primary-contrast: #fff;
   --secondary-contrast: #000;

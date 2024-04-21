@@ -5,6 +5,7 @@ import iconUser from "/icon-user.webp";
 import iconAlert from "/icon-alert.png";
 import iconExclamacion from "/icon-exclamacion.png";
 import "./RecordingElement.css";
+import { RECORDING } from "../../config/paths.js";
 
 function RecordingElement() {
   const itemsPerPage = 4; // Change this value as needed
@@ -27,7 +28,7 @@ function RecordingElement() {
 
     if (classToFilter) {
       setFilterRecording(
-        allRecordings.filter(recording => recording.class === classToFilter)
+        allRecordings.filter(recording => recording.subject === classToFilter)
       );
     } else {
       setFilterRecording(allRecordings);
@@ -92,9 +93,9 @@ function RecordingElement() {
       <div className="recording__items">
         {currentItems.map((recording, index) => (
           <a
-            href={recording.link}
-            target="_blank"
             rel="noopener noreferrer"
+            target="_black"
+            href={recording.link}
             key={index}
             className="recording__item"
           >
