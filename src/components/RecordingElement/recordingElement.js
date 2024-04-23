@@ -87,7 +87,7 @@ export const allRecordings = [
     title: "Primera Clase (Parte 1)",
     date: "04-04-2024",
     teacher: "Graciela Medici",
-    img: "/video-logica.webp",
+    img: "/video-matematica.webp",
     link: "https://www.youtube.com/watch?v=Wu5NaHW4HTA",
   },
   {
@@ -95,7 +95,7 @@ export const allRecordings = [
     title: "Primera Clase (Parte 2)",
     date: "04-04-2024",
     teacher: "Graciela Medici",
-    img: "/video-logica.webp",
+    img: "/video-matematica.webp",
     link: "https://www.youtube.com/watch?v=1ezz92xfX8Y",
   },
   {
@@ -103,7 +103,7 @@ export const allRecordings = [
     title: "Repaso de tarea anterior (Parte 1)",
     date: "11-04-2024",
     teacher: "Graciela Medici",
-    img: "/video-logica.webp",
+    img: "/video-matematica.webp",
     link: "https://youtu.be/oaoG3J8P7XI",
   },
   {
@@ -111,7 +111,7 @@ export const allRecordings = [
     title: "Repaso de tarea anterior (Parte 2)",
     date: "11-04-2024",
     teacher: "Graciela Medici",
-    img: "/video-logica.webp",
+    img: "/video-matematica.webp",
     link: "https://youtu.be/Qz6sisPGdcE",
   },
   {
@@ -119,7 +119,7 @@ export const allRecordings = [
     title: "Repaso con actividades nuevas",
     date: "18-04-2024",
     teacher: "Graciela Medici",
-    img: "/video-logica.webp",
+    img: "/video-matematica.webp",
     link: "https://youtu.be/4diGN3AepV0",
   },
 
@@ -149,7 +149,7 @@ export const allRecordings = [
   },
   {
     subject: "technique",
-    title: "Operadores de Python",
+    title: "Operadores y variables de Python",
     date: "15-04-2024",
     teacher: "Fernando Melissani",
     img: "/video-tecnica.webp",
@@ -157,10 +157,18 @@ export const allRecordings = [
   },
   {
     subject: "technique",
-    title: "Más operadores de Python",
+    title: "Comentarios e input()",
     date: "20-04-2024",
     teacher: "Fernando Melissani",
     img: "/video-tecnica.webp",
     link: "https://youtu.be/lXkyl7c8M2E",
+  },
+  {
+    subject: "technique",
+    title: "Decisiones en python",
+    date: "23-04-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://www.youtube.com/watch?v=tmAiDgwWYuM",
   },
 ];
