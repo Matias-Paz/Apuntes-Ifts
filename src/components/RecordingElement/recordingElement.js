@@ -158,7 +158,7 @@ export const allRecordings = [
   {
     subject: "technique",
     title: "Comentarios e input()",
-    date: "20-04-2024",
+    date: "19-04-2024",
     teacher: "Fernando Melissani",
     img: "/video-tecnica.webp",
     link: "https://youtu.be/lXkyl7c8M2E",
