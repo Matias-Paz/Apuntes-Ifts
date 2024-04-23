@@ -166,7 +166,7 @@ export const allRecordings = [
   {
     subject: "technique",
     title: "Decisiones en python",
-    date: "23-04-2024",
+    date: "22-04-2024",
     teacher: "Fernando Melissani",
     img: "/video-tecnica.webp",
     link: "https://www.youtube.com/watch?v=tmAiDgwWYuM",
