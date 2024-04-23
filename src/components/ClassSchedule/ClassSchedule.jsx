@@ -42,7 +42,7 @@ const classesByDay = {
         alt="icono de lógica computacional"
         title="Lógica Computacional"
         teacher="María Alicia Piñeiro"
-        horary="18:30hs a 22:hs"
+        horary="18:30hs a 22:00hs"
         href="https://meet.google.com/owt-nbeo-nid"
       />
     </div>
