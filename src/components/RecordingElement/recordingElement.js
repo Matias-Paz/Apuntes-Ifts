@@ -81,6 +81,14 @@ export const allRecordings = [
     img: "/video-logica.webp",
     link: "https://www.youtube.com/watch?v=aI-G5V-IGfA",
   },
+  {
+    subject: "logic",
+    title: "Repaso antes del parcial",
+    date: "23-04-2024",
+    teacher: "María Alicia Piñeiro",
+    img: "/video-logica.webp",
+    link: "https://www.youtube.com/watch?v=TZT12GccQYk",
+  },
 
   {
     subject: "mathematical",
