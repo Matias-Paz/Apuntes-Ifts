@@ -39,6 +39,15 @@ export const allRecordings = [
     teacher: "Gustavo Virtos",
     link: "https://www.youtube.com/watch?v=XKJh83HJOcg",
   },
+  {
+    subject: "dataBase",
+    title: "Sexta Clase",
+    date: "24-04-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://www.youtube.com/watch?v=OdNqXiUQDsU",
+  },
+
   // --------------------------------------------------------------
   {
     subject: "logic",
