@@ -8,15 +8,19 @@ import {
 } from "../../utils/createIcons.js";
 import Class1 from "./ComputationalLogic/ComputationalLogic1";
 import Class2 from "./ComputationalLogic/ComputationalLogic2";
+import Class3 from "./ComputationalLogic/ComputationalLogic3";
+import Class4 from "./ComputationalLogic/ComputationalLogic4.jsx";
 import { useParams } from "react-router-dom";
 import "../../ClassSubjects.css";
-import Footer from "../../components/Footer/Footer.jsx";
+import Footer from "../../components/Footer/Footer";
 
 const classComputationalLogicsDefault = "Ocurrio un error";
 
 const classComponents = {
   1: Class1,
   2: Class2,
+  3: Class3,
+  4: Class4,
 };
 
 const iconFunctions = {

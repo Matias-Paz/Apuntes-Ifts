@@ -18,10 +18,9 @@ import {
   RECORDING,
   SCHEDULE,
   TECHNIQUE,
-  VIDEO,
 } from "./config/paths";
 import Login from "./pages/Login/Login";
-import Recording from "./pages/Recording/Recording.jsx";
+import Recording from "./pages/Recording/Recording";
 import { AuthContextProvider } from "./context/AuthContext";
 import PublicRoute from "./router/PublicRoute";
 import PrivateRoute from "./router/PrivateRoute";

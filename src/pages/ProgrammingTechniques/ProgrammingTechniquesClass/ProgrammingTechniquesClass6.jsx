@@ -2,14 +2,16 @@ import YoutubeRecording from "../../../components/YoutubeRecording/YoutubeRecord
 import WorkProgress from "../../../components/WorkProgress/WorkProgress";
 import imgVideo from "/video-tecnica.webp";
 
-const ProgrammingTechniquesClass4 = () => {
-  const link = "https://youtu.be/QLn8OmS-ZJA";
+// Decisiones en python - Bucles
+
+const ProgrammingTechniquesClass6 = () => {
+  const link = "https://www.youtube.com/watch?v=lXkyl7c8M2E";
 
   return (
     <>
       <section className="classSubjects">
         <div className="container">
-          <h3 className="title">Tipos de datos de Python</h3>
+          <h3 className="title"> Comentarios e input()</h3>
           <p className="classSubjects__subtitle">
             Profesor: Fernando Melissani
           </p>
@@ -22,4 +24,4 @@ const ProgrammingTechniquesClass4 = () => {
   );
 };
 
-export default ProgrammingTechniquesClass4;
+export default ProgrammingTechniquesClass6;

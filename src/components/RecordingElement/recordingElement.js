@@ -76,7 +76,7 @@ export const allRecordings = [
   },
   {
     subject: "logic",
-    title: "Funciones proposicionales (Parte 1)",
+    title: "Lógica de predicados (Parte 1)",
     date: "16-04-2024",
     teacher: "María Alicia Piñeiro",
     img: "/video-logica.webp",
@@ -84,7 +84,7 @@ export const allRecordings = [
   },
   {
     subject: "logic",
-    title: "Funciones proposicionales (Parte 2)",
+    title: "Lógica de predicados (Parte 2)",
     date: "16-04-2024",
     teacher: "María Alicia Piñeiro",
     img: "/video-logica.webp",
@@ -166,7 +166,7 @@ export const allRecordings = [
   },
   {
     subject: "technique",
-    title: "Operadores y variables de Python",
+    title: "Operadores y variables",
     date: "15-04-2024",
     teacher: "Fernando Melissani",
     img: "/video-tecnica.webp",

@@ -11,14 +11,20 @@ import Error from "../Error/Error";
 import Class1 from "./DataBaseClass/DataBaseClass1";
 import Class2 from "./DataBaseClass/DataBaseClass2";
 import Class3 from "./DataBaseClass/DataBaseClass3";
+import Class4 from "./DataBaseClass/DataBaseClass4";
+import Class5 from "./DataBaseClass/DataBaseClass5";
+import Class6 from "./DataBaseClass/DataBaseClass6";
 import "../../ClassSubjects.css";
-import Footer from "../../components/Footer/Footer.jsx";
+import Footer from "../../components/Footer/Footer";
 
 const classDataBasePageDefault = "Ocurrio un error";
 const classesDataBase = {
   1: Class1,
   2: Class2,
   3: Class3,
+  4: Class4,
+  5: Class5,
+  6: Class6,
 };
 
 const iconFunctions = {

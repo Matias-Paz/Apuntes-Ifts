@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header.jsx";
 import {
   createIconPrimary,
   createIconRecord,
+  createIconSecondary,
 } from "../../utils/createIcons.js";
 import "../../ClassSubjects.css";
 import Error from "../Error/Error";
@@ -11,6 +12,9 @@ import Class1 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass1";
 import Class2 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass2";
 import Class3 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass3";
 import Class4 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass4";
+import Class5 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass5";
+import Class6 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass6";
+import Class7 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass7.jsx";
 import { useParams } from "react-router-dom";
 import Footer from "../../components/Footer/Footer.jsx";
 
@@ -21,13 +25,18 @@ const classesTechniques = {
   2: Class2,
   3: Class3,
   4: Class4,
+  5: Class5,
+  6: Class6,
+  7: Class7,
 };
 
 // Mapeo de íconos simplificado
 const iconFunctions = {
-  default: createIconPrimary,
-  2: createIconRecord,
-  4: createIconRecord,
+  default: createIconRecord,
+  // default: createIconPrimary,
+  1: createIconPrimary,
+  // 2: createIconPrimary,
+  3: createIconSecondary,
 };
 
 const ProgrammingTechniques = () => {
