@@ -146,10 +146,17 @@ export const cardsMath = [
     disable: false,
   },
   {
-    title: "Practica de actividad",
+    title: "Practica de Actividad 1",
     teacher: "Graciela Medici",
     date: "18-04-2024",
     link: `${import.meta.env.VITE_API}${MATH}/3#start`,
+    disable: false,
+  },
+  {
+    title: "Practica de Actividad 2",
+    teacher: "Graciela Medici",
+    date: "25-04-2024",
+    link: `${import.meta.env.VITE_API}${MATH}/4#start`,
     disable: false,
   },
 ];

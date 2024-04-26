@@ -139,10 +139,26 @@ export const allRecordings = [
     img: "/video-matematica.webp",
     link: "https://youtu.be/4diGN3AepV0",
   },
+  {
+    subject: "mathematical",
+    title: "Actividades y nuevos temas (Parte 1)",
+    date: "25-04-2024",
+    teacher: "Graciela Medici",
+    img: "/video-matematica.webp",
+    link: "https://youtu.be/LpyBkUwOOmA",
+  },
+  {
+    subject: "mathematical",
+    title: "Actividades y nuevos temas (Parte 2)",
+    date: "25-04-2024",
+    teacher: "Graciela Medici",
+    img: "/video-matematica.webp",
+    link: "https://youtu.be/QRGq64_wIGk",
+  },
 
   {
     subject: "technique",
-    title: "Clase introductoria de Python",
+    title: "Clase introductoria",
     date: "05-04-2024",
     teacher: "Fernando Melissani",
     img: "/video-tecnica.webp",

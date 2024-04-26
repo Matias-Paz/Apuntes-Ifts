@@ -4,20 +4,22 @@ import {
   createIconTertiary,
   createIconRecord,
 } from "../../utils/createIcons.js";
-import Header from "../../components/Header/Header.jsx";
+import Header from "../../components/Header/Header";
 import Start from "../../components/Start/Start";
 import Error from "../Error/Error";
-import Class1 from "./MathematicalAnalysisClass/MathematicalAnalysisClass1.jsx";
-import Class2 from "./MathematicalAnalysisClass/MathematicalAnalysisClass2.jsx";
-import Class3 from "./MathematicalAnalysisClass/MathematicalAnalysisClass3.jsx";
+import Class1 from "./MathematicalAnalysisClass/MathematicalAnalysisClass1";
+import Class2 from "./MathematicalAnalysisClass/MathematicalAnalysisClass2";
+import Class3 from "./MathematicalAnalysisClass/MathematicalAnalysisClass3";
+import Class4 from "./MathematicalAnalysisClass/MathematicalAnalysisClass4.jsx";
 import { useParams } from "react-router-dom";
-import Footer from "../../components/Footer/Footer.jsx";
+import Footer from "../../components/Footer/Footer";
 
 const classMathematicalAnalysisDefault = "Ocurrió un error";
 const classesMathematicalAnalysis = {
   1: Class1,
   2: Class2,
   3: Class3,
+  4: Class4,
 };
 
 const MathematicalAnalysis = () => {

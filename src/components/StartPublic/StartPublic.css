@@ -31,6 +31,7 @@
 }
 
 .startPublic h3 {
+  font-size: 1.5rem;
   color: var(--primary-contrast);
 }
 
@@ -83,9 +84,16 @@
   justify-content: center;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 375px) {
   .startContent__title {
+    /* gap: unset; */
     width: max-content;
+  }
+}
+
+@media (min-width: 425px) {
+  .startPublic h3 {
+    font-size: 1.8rem;
   }
 }
 
