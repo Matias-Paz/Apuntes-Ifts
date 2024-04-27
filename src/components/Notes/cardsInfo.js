@@ -91,11 +91,18 @@ export const cardsCoding = [
     link: `${import.meta.env.VITE_API}${TECHNIQUE}/6#start`,
   },
   {
-    title: "Decisiones y bucles",
+    title: "Decisiones y bucles 1",
     teacher: "Fernando Melissani",
     date: "22-04-2024",
     disable: false,
     link: `${import.meta.env.VITE_API}${TECHNIQUE}/7#start`,
+  },
+  {
+    title: "Decisiones y bucles 2",
+    teacher: "Fernando Melissani",
+    date: "26-04-2024",
+    disable: false,
+    link: `${import.meta.env.VITE_API}${TECHNIQUE}/8#start`,
   },
 ];
 

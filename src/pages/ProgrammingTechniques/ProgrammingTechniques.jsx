@@ -14,9 +14,10 @@ import Class3 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass3";
 import Class4 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass4";
 import Class5 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass5";
 import Class6 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass6";
-import Class7 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass7.jsx";
+import Class7 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass7";
+import Class8 from "./ProgrammingTechniquesClass/ProgrammingTechniquesClass8";
 import { useParams } from "react-router-dom";
-import Footer from "../../components/Footer/Footer.jsx";
+import Footer from "../../components/Footer/Footer";
 
 // Configuración de las clases fuera del componente para evitar recreaciones innecesarias
 const classProgrammingTechniquesDefault = "Ocurrió un error";
@@ -28,6 +29,7 @@ const classesTechniques = {
   5: Class5,
   6: Class6,
   7: Class7,
+  8: Class8,
 };
 
 // Mapeo de íconos simplificado

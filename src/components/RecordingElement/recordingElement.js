@@ -198,10 +198,18 @@ export const allRecordings = [
   },
   {
     subject: "technique",
-    title: "Decisiones en python",
+    title: "Decisiones en Python 1",
     date: "22-04-2024",
     teacher: "Fernando Melissani",
     img: "/video-tecnica.webp",
     link: "https://www.youtube.com/watch?v=tmAiDgwWYuM",
+  },
+  {
+    subject: "technique",
+    title: "Decisiones en Python 2",
+    date: "26-04-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://youtu.be/2tPeHSxXxF0",
   },
 ];
