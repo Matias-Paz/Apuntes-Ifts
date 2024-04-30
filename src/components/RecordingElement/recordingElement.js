@@ -47,6 +47,14 @@ export const allRecordings = [
     teacher: "Gustavo Virtos",
     link: "https://www.youtube.com/watch?v=OdNqXiUQDsU",
   },
+  {
+    subject: "dataBase",
+    title: "Septima Clase",
+    date: "29-04-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://www.youtube.com/watch?v=TTO4d6FYSsw",
+  },
 
   // --------------------------------------------------------------
   {
@@ -211,5 +219,13 @@ export const allRecordings = [
     teacher: "Fernando Melissani",
     img: "/video-tecnica.webp",
     link: "https://youtu.be/2tPeHSxXxF0",
+  },
+  {
+    subject: "technique",
+    title: "Metodos y funciones",
+    date: "29-04-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://youtu.be/pnGFixUcHhE",
   },
 ];
