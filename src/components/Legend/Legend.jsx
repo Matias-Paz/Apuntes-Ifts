@@ -8,11 +8,10 @@ const Legend = () => {
           Modo Biblioteca Oculta Activado
         </span>
         : En esta modalidad, tendrás la oportunidad de acceder a las grabaciones
-        de las clases virtuales, así como a un quiz calificatorio en cada clase.
-        No obstante, ten en cuenta que la inclusión de apuntes puede ser
-        progresiva o, en ciertos casos, no estar disponible. Esto permitirá al
-        creador del sitio web dedicar tiempo al estudio para los exámenes
-        parciales. Los quiz de las clases estarán disponibles el 12-05-2024.
+        de las clases virtuales, así como a un quiz. No obstante, ten en cuenta
+        que la inclusión de apuntes puede ser progresiva o, en ciertos casos, no
+        estar disponible. Esto permitirá al creador del sitio web dedicar tiempo
+        al estudio para los exámenes parciales.
       </p>
     </section>
   );
