@@ -12,8 +12,7 @@ const Legend = () => {
         No obstante, ten en cuenta que la inclusión de apuntes puede ser
         progresiva o, en ciertos casos, no estar disponible. Esto permitirá al
         creador del sitio web dedicar tiempo al estudio para los exámenes
-        parciales. Los quiz de todas las clases estarán disponibles el
-        28-04-2024.
+        parciales. Los quiz de las clases estarán disponibles el 12-05-2024.
       </p>
     </section>
   );
