@@ -37,12 +37,20 @@ const myEventsList = [
   },
 
   {
-    start: dayjs("2024-5-08T00:00:00").toDate(),
-    end: dayjs("2024-5-08T23:59:59").toDate(),
-    title: "Posible Primer parcial de Administración de Base de Datos",
-    description: `"Es una fecha posible, depende si avanzamos bien con los temas", dijo el profesor. No la tomen como definitiva.`,
-    teacher: "Gustavo Virtos",
+    start: dayjs("2024-5-16T00:00:00").toDate(),
+    end: dayjs("2024-5-1623:59:59").toDate(),
+    title: "Posible Primer parcial de Análisis Matemático",
+    teacher: "María Alicia Piñeiro",
+    description: `"Es una fecha posible, depende si hay paro de colectivos", dijo la profesora.`,
   },
+
+  // {
+  //   start: dayjs("2024-5-08T00:00:00").toDate(),
+  //   end: dayjs("2024-5-08T23:59:59").toDate(),
+  //   title: "Posible Primer parcial de Administración de Base de Datos",
+  //   description: `"Es una fecha posible, depende si avanzamos bien con los temas", dijo el profesor. No la tomen como definitiva.`,
+  //   teacher: "Gustavo Virtos",
+  // },
 
   {
     start: dayjs("2024-6-18T00:00:00").toDate(),

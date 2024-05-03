@@ -163,6 +163,22 @@ export const allRecordings = [
     img: "/video-matematica.webp",
     link: "https://youtu.be/QRGq64_wIGk",
   },
+  {
+    subject: "mathematical",
+    title: "Sistema de ecuaciones (Parte 1)",
+    date: "02-05-2024",
+    teacher: "Graciela Medici",
+    img: "/video-matematica.webp",
+    link: "https://www.youtube.com/watch?v=31lfVXE4B5c",
+  },
+  {
+    subject: "mathematical",
+    title: "Sistema de ecuaciones (Parte 2)",
+    date: "02-05-2024",
+    teacher: "Graciela Medici",
+    img: "/video-matematica.webp",
+    link: "https://www.youtube.com/watch?v=PQqFWsew6oM",
+  },
 
   {
     subject: "technique",

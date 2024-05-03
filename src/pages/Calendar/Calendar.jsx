@@ -3,11 +3,11 @@ import {
   classicIcons,
   classicPrivateIcons,
 } from "../../components/Header/headerInfo.js";
-import Header from "../../components/Header/Header.jsx";
+import Header from "../../components/Header/Header";
 import Start from "../../components/Start/Start";
 import Legend from "../../components/Legend/Legend";
-import { useAuthContext } from "../../context/AuthContext.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
+import { useAuthContext } from "../../context/AuthContext";
+import Footer from "../../components/Footer/Footer";
 
 const Calendar = () => {
   const { isAuthenticated } = useAuthContext();
