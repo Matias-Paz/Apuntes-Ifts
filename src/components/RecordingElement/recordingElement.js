@@ -244,4 +244,20 @@ export const allRecordings = [
     img: "/video-tecnica.webp",
     link: "https://youtu.be/pnGFixUcHhE",
   },
+  {
+    subject: "technique",
+    title: "Tuplas (Parte 1)",
+    date: "03-05-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://youtu.be/gkc5G-jCOoE",
+  },
+  {
+    subject: "technique",
+    title: "Tuplas (Parte 2)",
+    date: "03-05-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://youtu.be/DraWPsZ99TI",
+  },
 ];

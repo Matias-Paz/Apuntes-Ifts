@@ -39,9 +39,17 @@ const myEventsList = [
   {
     start: dayjs("2024-5-16T00:00:00").toDate(),
     end: dayjs("2024-5-1623:59:59").toDate(),
-    title: "Posible Primer parcial de Análisis Matemático",
+    title: "Posible primer parcial de Análisis Matemático",
     teacher: "María Alicia Piñeiro",
     description: `"Es una fecha posible, depende si hay paro de colectivos", dijo la profesora.`,
+  },
+
+  {
+    start: dayjs("2024-5-31T00:00:00").toDate(),
+    end: dayjs("2024-5-3123:59:59").toDate(),
+    title: "Parcial de Tecnicas en Programación",
+    teacher: "Fernando Melissani",
+    description: `El examen será de múltiple opción y abarcará temas como print, tipos de datos, operadores y variables, comentarios e input, bucles (for, while, else), listas, tuplas, diccionarios, sin incluir break y continue.`,
   },
 
   // {
