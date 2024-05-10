@@ -55,6 +55,22 @@ export const allRecordings = [
     teacher: "Gustavo Virtos",
     link: "https://www.youtube.com/watch?v=TTO4d6FYSsw",
   },
+  {
+    subject: "dataBase",
+    title: "Octava Clase",
+    date: "06-05-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://www.youtube.com/watch?v=SQP96ndeyss",
+  },
+  {
+    subject: "dataBase",
+    title: "Novena Clase",
+    date: "08-05-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://www.youtube.com/watch?v=AWIS9I9gjEI",
+  },
 
   // --------------------------------------------------------------
   {
@@ -106,7 +122,7 @@ export const allRecordings = [
     img: "/video-logica.webp",
     link: "https://www.youtube.com/watch?v=TZT12GccQYk",
   },
-
+  // --------------------------------------------------------
   {
     subject: "mathematical",
     title: "Primera Clase (Parte 1)",
@@ -181,6 +197,24 @@ export const allRecordings = [
   },
 
   {
+    subject: "mathematical",
+    title: "Repaso antes del parcial (Parte 1)",
+    date: "09-05-2024",
+    teacher: "Graciela Medici",
+    img: "/video-matematica.webp",
+    link: "https://www.youtube.com/watch?v=NvzXc7AVdpw",
+  },
+  {
+    subject: "mathematical",
+    title: "Repaso antes del parcial (Parte 2)",
+    date: "09-05-2024",
+    teacher: "Graciela Medici",
+    img: "/video-matematica.webp",
+    link: "https://www.youtube.com/watch?v=K4fDNUxnZbw",
+  },
+
+  // -----------------------------------
+  {
     subject: "technique",
     title: "Clase introductoria",
     date: "05-04-2024",
@@ -246,7 +280,7 @@ export const allRecordings = [
   },
   {
     subject: "technique",
-    title: "Tuplas (Parte 1)",
+    title: "Listas (Parte 1)",
     date: "03-05-2024",
     teacher: "Fernando Melissani",
     img: "/video-tecnica.webp",
@@ -254,7 +288,7 @@ export const allRecordings = [
   },
   {
     subject: "technique",
-    title: "Tuplas (Parte 2)",
+    title: "Listas (Parte 2)",
     date: "03-05-2024",
     teacher: "Fernando Melissani",
     img: "/video-tecnica.webp",
