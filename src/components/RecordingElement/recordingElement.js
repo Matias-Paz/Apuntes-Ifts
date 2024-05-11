@@ -294,4 +294,22 @@ export const allRecordings = [
     img: "/video-tecnica.webp",
     link: "https://youtu.be/DraWPsZ99TI",
   },
+
+  {
+    subject: "technique",
+    title: "Tuplas y diccionarios",
+    date: "06-05-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://youtu.be/iyYdQoid0rA",
+  },
+
+  {
+    subject: "technique",
+    title: "Actividad de tuplas y diccionarios",
+    date: "10-05-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://www.youtube.com/watch?v=77rYebjUDdI",
+  },
 ];
