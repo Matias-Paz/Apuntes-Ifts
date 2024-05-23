@@ -231,7 +231,7 @@
 
   .recordingElement__pagination {
     /* justify-content: center; */
-    max-width: 50rem;
+    /* max-width: 50rem; */
     margin: 0 auto;
     gap: 0.5rem;
   }

@@ -71,6 +71,47 @@ export const allRecordings = [
     teacher: "Gustavo Virtos",
     link: "https://www.youtube.com/watch?v=AWIS9I9gjEI",
   },
+  {
+    subject: "dataBase",
+    title: "Décima Clase",
+    date: "13-05-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://www.youtube.com/watch?v=uz5FFxHj_2g",
+  },
+  {
+    subject: "dataBase",
+    title: "Undécima Clase",
+    date: "15-05-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://youtu.be/2SWBogRD2PY",
+  },
+
+  {
+    subject: "dataBase",
+    title: "Duodécima Clase",
+    date: "20-05-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://youtu.be/wy8Uc-MMpN8",
+  },
+  {
+    subject: "dataBase",
+    title: "Decimotercera Clase 1",
+    date: "22-05-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://youtu.be/WpN5x5Tn8mU",
+  },
+  {
+    subject: "dataBase",
+    title: "Decimotercera Clase 2",
+    date: "22-05-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://youtu.be/XRhtOa9E8Qk",
+  },
 
   // --------------------------------------------------------------
   {
@@ -122,6 +163,33 @@ export const allRecordings = [
     img: "/video-logica.webp",
     link: "https://www.youtube.com/watch?v=TZT12GccQYk",
   },
+  {
+    subject: "logic",
+    title: "Razonamiento 1 (Parte 1)",
+    date: "14-04-2024",
+    teacher: "María Alicia Piñeiro",
+    img: "/video-logica.webp",
+    link: "https://www.youtube.com/watch?v=JP71GZcE-QU&feature=youtu.be",
+  },
+
+  {
+    subject: "logic",
+    title: "Razonamiento 1 (Parte 2)",
+    date: "14-04-2024",
+    teacher: "María Alicia Piñeiro",
+    img: "/video-logica.webp",
+    link: "https://youtu.be/axHjswxTndo",
+  },
+
+  {
+    subject: "logic",
+    title: "Razonamiento 2",
+    date: "21-04-2024",
+    teacher: "María Alicia Piñeiro",
+    img: "/video-logica.webp",
+    link: "https://www.youtube.com/watch?v=mDVGMZiLb1I",
+  },
+
   // --------------------------------------------------------
   {
     subject: "mathematical",
@@ -311,5 +379,32 @@ export const allRecordings = [
     teacher: "Fernando Melissani",
     img: "/video-tecnica.webp",
     link: "https://www.youtube.com/watch?v=77rYebjUDdI",
+  },
+
+  {
+    subject: "technique",
+    title: "Excepciones",
+    date: "13-05-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://www.youtube.com/watch?v=dnAfYbFXcRU",
+  },
+
+  {
+    subject: "technique",
+    title: "Funciones",
+    date: "17-05-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://www.youtube.com/watch?v=M3nFiZzZpuk",
+  },
+
+  {
+    subject: "technique",
+    title: "Practica de Parcial 1",
+    date: "20-05-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://youtu.be/kwk7F7FD5UQ",
   },
 ];
