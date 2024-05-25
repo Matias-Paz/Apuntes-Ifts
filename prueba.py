@@ -9,7 +9,7 @@ list_ifts += [0]
 
 # Imprimimos la lista con un elemento agregado
 # print(list_ifts)
-
+# "cambio"
 # 3.- Como podemos utilizar el bucle for para agregar más elementos?
 for i in range(5):
     num = i + 1
