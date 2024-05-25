@@ -74,14 +74,3 @@ print("Nota más alta:", nota_alta)
 print("Nota más baja:", nota_baja)
 
 
-
-#     Ordena la lista de calificaciones de forma ascendente y muestre la lista ordenada.
-# def bubble_sort(calificaciones):
-#     n = len(calificaciones)
-#     for i in range(n):
-#         for j in range(0, n-i-1):
-#             if calificaciones[j] > calificaciones[j+1]:
-#                 calificaciones[j], calificaciones[j+1] = calificaciones[j+1], calificaciones[j]
-
-# bubble_sort(list_nota)  # Ordena la lista usando el algoritmo de ordenamiento burbuja
-
