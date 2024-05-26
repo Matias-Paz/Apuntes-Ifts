@@ -407,4 +407,13 @@ export const allRecordings = [
     img: "/video-tecnica.webp",
     link: "https://youtu.be/kwk7F7FD5UQ",
   },
+
+  {
+    subject: "technique",
+    title: "Practica de Parcial 2",
+    date: "20-05-2024",
+    teacher: "Fernando Melissani",
+    img: "/video-tecnica.webp",
+    link: "https://youtu.be/kwk7F7FD5UQ",
+  },
 ];
