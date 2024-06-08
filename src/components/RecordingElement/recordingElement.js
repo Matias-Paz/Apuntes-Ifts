@@ -280,6 +280,38 @@ export const allRecordings = [
     img: "/video-matematica.webp",
     link: "https://www.youtube.com/watch?v=K4fDNUxnZbw",
   },
+  {
+    subject: "Trabajo de Martices",
+    title: "Repaso con actividades nuevas",
+    date: "23-05-2024",
+    teacher: "Graciela Medici",
+    img: "/video-matematica.webp",
+    link: "https://www.youtube.com/watch?v=wl0flUXMdoA",
+  },
+  {
+    subject: "mathematical",
+    title: "Trabajo de Martices",
+    date: "23-05-2024",
+    teacher: "Graciela Medici",
+    img: "/video-matematica.webp",
+    link: "https://www.youtube.com/watch?v=vs6Xnl_a6mQ",
+  },
+  {
+    subject: "mathematical",
+    title: "Corrección de Parcial",
+    date: "30-05-2024",
+    teacher: "Graciela Medici",
+    img: "/video-matematica.webp",
+    link: "https://www.youtube.com/watch?v=a-r3NdTaI_8",
+  },
+{
+    subject: "mathematical",
+    title: "Corrección de Parcial",
+    date: "30-05-2024",
+    teacher: "Graciela Medici",
+    img: "/video-matematica.webp",
+    link: "https://www.youtube.com/watch?v=mi_bucOPfm8",
+  },
 
   // -----------------------------------
   {
