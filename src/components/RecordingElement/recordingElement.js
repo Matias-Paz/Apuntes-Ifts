@@ -112,7 +112,38 @@ export const allRecordings = [
     teacher: "Gustavo Virtos",
     link: "https://youtu.be/XRhtOa9E8Qk",
   },
-
+  {
+    subject: "dataBase",
+    title: "Ejercicios de MER",
+    date: "27-05-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://youtu.be/E7WaYVXkQu0",
+  },
+  {
+    subject: "dataBase",
+    title: "Correcion de Prueba",
+    date: "03-06-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://youtu.be/XG-DR_MeDV4",
+  },
+  {
+    subject: "dataBase",
+    title: "Ejercicios de MR - (Parte 1)",
+    date: "05-06-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://youtu.be/b7s0giyXlwo",
+  },
+  {
+    subject: "dataBase",
+    title: "Ejercicios de MR - (Parte 2)",
+    date: "05-06-2024",
+    img: "/video-base.webp",
+    teacher: "Gustavo Virtos",
+    link: "https://youtu.be/PfBbQm-YOhU",
+  },
   // --------------------------------------------------------------
   {
     subject: "logic",
@@ -180,7 +211,6 @@ export const allRecordings = [
     img: "/video-logica.webp",
     link: "https://youtu.be/axHjswxTndo",
   },
-
   {
     subject: "logic",
     title: "Razonamiento 2",
@@ -189,7 +219,38 @@ export const allRecordings = [
     img: "/video-logica.webp",
     link: "https://www.youtube.com/watch?v=mDVGMZiLb1I",
   },
-
+  {
+    subject: "logic",
+    title: "Logica digital (Parte 1)",
+    date: "28-05-2024",
+    teacher: "María Alicia Piñeiro",
+    img: "/video-logica.webp",
+    link: "https://www.youtube.com/watch?v=qtW8I2WGm4U",
+  },
+  {
+    subject: "logic",
+    title: "Logica digital (Parte 2)",
+    date: "28-05-2024",
+    teacher: "María Alicia Piñeiro",
+    img: "/video-logica.webp",
+    link: "https://www.youtube.com/watch?si=rWdUwky7_s5pDX7V&v=euHMAYHVAc8&feature=youtu.be",
+  },
+  {
+    subject: "logic",
+    title: "Diagrama logico con compuertas (Parte 1)",
+    date: "04-06-2024",
+    teacher: "María Alicia Piñeiro",
+    img: "/video-logica.webp",
+    link: "https://www.youtube.com/watch?v=u3kwAE1yOuk&list=PLBblByh1oPEdNvwitlWqJKkh3T1euI6Lc&index=11",
+  },
+  {
+    subject: "logic",
+    title: "Diagrama logico con compuertas (Parte 2)",
+    date: "04-06-2024",
+    teacher: "María Alicia Piñeiro",
+    img: "/video-logica.webp",
+    link: "https://www.youtube.com/watch?v=qN7xXfPmHx0",
+  },
   // --------------------------------------------------------
   {
     subject: "mathematical",
@@ -263,7 +324,6 @@ export const allRecordings = [
     img: "/video-matematica.webp",
     link: "https://www.youtube.com/watch?v=PQqFWsew6oM",
   },
-
   {
     subject: "mathematical",
     title: "Repaso antes del parcial (Parte 1)",
@@ -304,7 +364,7 @@ export const allRecordings = [
     img: "/video-matematica.webp",
     link: "https://www.youtube.com/watch?v=a-r3NdTaI_8",
   },
-{
+  {
     subject: "mathematical",
     title: "Corrección de Parcial",
     date: "30-05-2024",
@@ -448,73 +508,6 @@ export const allRecordings = [
     img: "/video-tecnica.webp",
     link: "https://youtu.be/kwk7F7FD5UQ",
   },
-  // #---------------------------
-  {
-    subject: "logic",
-    title: "Logica digital (Parte 1)",
-    date: "28-05-2024",
-    teacher: "María Alicia Piñeiro",
-    img: "/video-logica.webp",
-    link: "https://www.youtube.com/watch?v=qtW8I2WGm4U",
-  },
-  {
-    subject: "logic",
-    title: "Logica digital (Parte 2)",
-    date: "28-05-2024",
-    teacher: "María Alicia Piñeiro",
-    img: "/video-logica.webp",
-    link: "https://www.youtube.com/watch?si=rWdUwky7_s5pDX7V&v=euHMAYHVAc8&feature=youtu.be",
-  },
-  {
-    subject: "logic",
-    title: "Diagrama logico con compuertas (Parte 1)",
-    date: "04-06-2024",
-    teacher: "María Alicia Piñeiro",
-    img: "/video-logica.webp",
-    link: "https://www.youtube.com/watch?v=u3kwAE1yOuk&list=PLBblByh1oPEdNvwitlWqJKkh3T1euI6Lc&index=11",
-  },
-  {
-    subject: "logic",
-    title: "Diagrama logico con compuertas (Parte 2)",
-    date: "04-06-2024",
-    teacher: "María Alicia Piñeiro",
-    img: "/video-logica.webp",
-    link: "https://www.youtube.com/watch?v=qN7xXfPmHx0",
-  },
-
-  {
-    subject: "dataBase",
-    title: "Ejercicios de MER",
-    date: "27-05-2024",
-    img: "/video-base.webp",
-    teacher: "Gustavo Virtos",
-    link: "https://youtu.be/E7WaYVXkQu0",
-  },
-  {
-    subject: "dataBase",
-    title: "Correcion de Prueba",
-    date: "03-06-2024",
-    img: "/video-base.webp",
-    teacher: "Gustavo Virtos",
-    link: "https://youtu.be/XG-DR_MeDV4",
-  },
-  {
-    subject: "dataBase",
-    title: "Ejercicios de MR - (Parte 1)",
-    date: "05-06-2024",
-    img: "/video-base.webp",
-    teacher: "Gustavo Virtos",
-    link: "https://youtu.be/b7s0giyXlwo",
-  },
-  {
-    subject: "dataBase",
-    title: "Ejercicios de MR - (Parte 2)",
-    date: "05-06-2024",
-    img: "/video-base.webp",
-    teacher: "Gustavo Virtos",
-    link: "https://youtu.be/PfBbQm-YOhU",
-  },
-
   {
     subject: "technique",
     title: "Repaso de TP",

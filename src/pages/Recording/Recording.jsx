@@ -1,6 +1,5 @@
 import Header from "../../components/Header/Header";
 import Start from "../../components/Start/Start";
-import Legend from "../../components/Legend/Legend";
 import RecordingElement from "../../components/RecordingElement/RecordingElement.jsx";
 import { classicPrivateIcons } from "../../components/Header/headerInfo.js";
 import Footer from "../../components/Footer/Footer.jsx";
@@ -20,7 +19,6 @@ function Recording() {
             "Acceso a grabaciones de clases universitarias de los temas tratados en cualquier momento."
           }
         />
-        {isAuthenticated && <Legend />}
         {isAuthenticated && <RecordingElement />}
       </main>
       <Footer />

@@ -42,17 +42,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="tel:+541146872400"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    className="footer__link"
-                  >
-                    <img src={iconPhone} alt="icono de celular" />
-                    +54 11 4687-2400
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="mailto:bedelesifts4@gmail.com"
                     className="footer__link"
                   >

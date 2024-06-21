@@ -45,8 +45,8 @@ const myEventsList = [
   },
 
   {
-    start: dayjs("2024-5-30T00:00:00").toDate(),
-    end: dayjs("2024-5-30T23:59:59").toDate(),
+    start: dayjs("2024-5-29T00:00:00").toDate(),
+    end: dayjs("2024-5-29T23:59:59").toDate(),
     title: "Primer parcial de Administración de Base de Datos",
     teacher: "Gustavo Virtos",
   },
