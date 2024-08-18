@@ -10,8 +10,8 @@ export const classicIcons = [
     href: "/#start",
     ariaLabel: `${import.meta.env.VITE_API}/#start`,
     img: "/icon-note.png",
-    alt: "icono de apuntes",
-    text: "Apuntes",
+    alt: "icono de inicio",
+    text: "Inicio",
   },
   {
     href: `${import.meta.env.VITE_API}${CALENDAR}#start`,
@@ -41,8 +41,22 @@ export const classicPrivateIcons = [
     href: "/#start",
     ariaLabel: `${import.meta.env.VITE_API}/#start`,
     img: "/icon-note.png",
-    alt: "icono de apuntes",
-    text: "Apuntes",
+    alt: "icono de inicio",
+    text: "Inicio",
+  },
+  // {
+  //   href: "/#start",
+  //   ariaLabel: `${import.meta.env.VITE_API}/#start`,
+  //   img: "/icon-note.png",
+  //   alt: "icono de apuntes",
+  //   text: "Apuntes",
+  // },
+  {
+    href: `${import.meta.env.VITE_API}${RECORDING}#start`,
+    ariaLabel: "Grabacion",
+    img: "/icon-recording.png",
+    alt: "icono de grabacion",
+    text: "Grabacion",
   },
   {
     href: `${import.meta.env.VITE_API}${CALENDAR}#start`,
@@ -61,17 +75,9 @@ export const classicPrivateIcons = [
   },
   {
     href: `${import.meta.env.VITE_API}${CORRELATIVIDADES}#start`,
-
     ariaLabel: "Botón de materias correlativas",
     img: "/icon-studio.png",
     alt: "icono de materias correlativas",
-    text: "Materias",
-  },
-  {
-    href: `${import.meta.env.VITE_API}${RECORDING}#start`,
-    ariaLabel: "Grabacion",
-    img: "/icon-recording.png",
-    alt: "icono de grabacion",
-    text: "Grabacion",
+    text: "Correlatividades",
   },
 ];

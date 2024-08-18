@@ -1,8 +1,8 @@
-import { useAuthContext } from "../../context/AuthContext";
+// import { useAuthContext } from "../../context/AuthContext";
 import "./ClassToday.css";
 
 const ClassToday = ({ img, alt, title, teacher, horary, href }) => {
-  const { isAuthenticated } = useAuthContext();
+  // const { isAuthenticated } = useAuthContext();
 
   return (
     <div className="classToday">
@@ -17,7 +17,7 @@ const ClassToday = ({ img, alt, title, teacher, horary, href }) => {
           </p>
         </div>
       </div>
-      {isAuthenticated && (
+      {/* {isAuthenticated && (
         <a
           className="classToday__link"
           href={href}
@@ -26,7 +26,7 @@ const ClassToday = ({ img, alt, title, teacher, horary, href }) => {
         >
           Unirse con Google Meet
         </a>
-      )}
+      )} */}
     </div>
   );
 };

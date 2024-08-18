@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import "./Slider.css";
 
-const Slider = ({ img, alt, title, cards }) => {
+const Slider = ({ title, cards }) => {
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(null);
   const [startScrollLeft, setStartScrollLeft] = useState(null);
@@ -62,11 +62,9 @@ const Slider = ({ img, alt, title, cards }) => {
 
   return (
     <>
+      <h2 className="slider__title--primary">Apuntes de clases</h2>
       <div className="card__title">
-        <picture className="card__picture">
-          <img loading="lazy" className="card__img" src={img} alt={alt} />
-        </picture>
-        <h3 className="subtitle">{title}</h3>
+        <h3 className="slider__subtitle">Elegir clase de {title}</h3>
       </div>
       <div className="slider">
         <div className="slider__cards">

@@ -160,6 +160,16 @@
   right: -20px;
 }
 
+.slider__subtitle {
+  font-size: 1.5rem;
+  font-weight: unset;
+}
+
+.slider__title--primary {
+  color: var(--primary-contrast);
+  font-size: 2.5rem;
+}
+
 /* card */
 
 .cards h3 {

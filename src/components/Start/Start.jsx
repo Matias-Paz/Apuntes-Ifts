@@ -1,5 +1,5 @@
-// import heroImg from "/hero.jpg";
-import heroImg from "/libro-secreto.avif";
+import heroImg from "/hero.jpg";
+// import heroImg from "/libro-secreto.avif";
 import "./Start.css";
 
 const Start = ({ title, startParagraph = false, paragraph }) => {

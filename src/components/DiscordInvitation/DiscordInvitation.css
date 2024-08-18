@@ -1,0 +1,87 @@
+.discordInvitation {
+  background-color: var(--task-container);
+  color: #fff;
+  position: relative;
+  padding: 6rem 0;
+}
+
+.discordInvitation::before {
+  content: "";
+  position: absolute;
+  top: 4rem;
+  left: -250px;
+  width: 300px;
+  height: 60%;
+  border-radius: 100px;
+  background-image: url(/public/task-icon.svg);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.discordInvitation__container {
+  display: grid;
+  row-gap: 1rem;
+  width: 95%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.discordInvitation__subcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.discordInvitation__subcontainer p {
+  /* width: 80%; */
+  flex: 200px;
+}
+
+.discordInvitation .title {
+  color: var(--errorTask-contrast);
+}
+
+.discordInvitation__link {
+  margin-right: auto;
+  max-height: 3rem;
+  padding: 0.7rem 0;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  align-items: center;
+  color: var(--quaternary-contrast);
+  /* border: 1px solid var(--tertiary); */
+  box-shadow: 0px 0px 10px 2px #0000004b;
+
+  background-color: var(--tertiary);
+  font-weight: 600;
+  border-radius: 0.25em;
+  width: 100%;
+}
+
+.discordInvitation__link:hover {
+  color: var(--tertiary);
+  /* color: var(--quaternary-contrast); */
+  background-color: var(--tertiary);
+  background-color: var(--quaternary-contrast);
+  /* background-color: var(--tertiary); */
+}
+
+@media (min-width: 375px) {
+  .discordInvitation__container {
+    width: 85%;
+  }
+}
+
+@media (min-width: 768px) {
+  .discordInvitation__link {
+    max-width: 20rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .discordInvitation::before {
+    opacity: 1;
+    pointer-events: none;
+  }
+}

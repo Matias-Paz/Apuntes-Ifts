@@ -11,7 +11,7 @@
   transition: background-color 0.3s linear, box-shadow 0.3s linear,
     outline 0.3s linear, top 0.5s linear;
 }
-/* 
+
 :root {
   font-family: sans-serif;
 
@@ -40,6 +40,8 @@
     saturate(1%) hue-rotate(137deg) brightness(103%) contrast(101%);
   --quinary-filter: brightness(0) saturate(100%) invert(29%) sepia(68%)
     saturate(3825%) hue-rotate(137deg) brightness(96%) contrast(87%);
+  --sextenary-filter: brightness(0) saturate(100%);
+  --wave-filter: brightness(0) saturate(100%);
 
   --primary-contrast: #000;
   --secondary-contrast: #fff;
@@ -51,7 +53,6 @@
   --octenary-contrast: #fff;
   --novena-contrast: #dce1e4;
   --errorTask-contrast: #25d366;
-
   --primary-transparent-contrast: #ffffffb0;
 
   --gap-container: 2.5rem;
@@ -80,6 +81,10 @@
   --quaternary-filter: brightness(0) saturate(100%) invert(65%) sepia(100%)
     saturate(382%) hue-rotate(84deg) brightness(88%) contrast(92%);
   --quinary-filter: brightness(0) saturate(100%);
+  --sextenary-filter: brightness(0) saturate(100%) invert(99%) sepia(96%)
+    saturate(15%) hue-rotate(239deg) brightness(104%) contrast(100%);
+  --wave-filter: brightness(0) saturate(100%) invert(37%) sepia(16%)
+    saturate(1844%) hue-rotate(89deg) brightness(98%) contrast(92%);
 
   --primary-contrast: #fff;
   --secondary-contrast: #000;
@@ -93,10 +98,10 @@
 
   --primary-transparent-contrast: #000000d8;
   color-scheme: dark;
-} */
+}
 
 /* modo libro secreto */
-:root {
+/* :root {
   font-family: sans-serif;
 
   --container-padding: 80px 15px;
@@ -184,7 +189,7 @@
 
   --primary-transparent-contrast: #040f1ee9;
   color-scheme: dark;
-}
+} */
 
 body {
   background-color: var(--secondary);

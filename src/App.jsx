@@ -24,9 +24,9 @@ import Recording from "./pages/Recording/Recording";
 import { AuthContextProvider } from "./context/AuthContext";
 import PublicRoute from "./router/PublicRoute";
 import PrivateRoute from "./router/PrivateRoute";
+import Couse from "./components/Course/Couse";
 
 // Componentes para carga diferida con React.lazy
-// const Video = React.lazy(() => import("./pages/Video/Video.jsx"));
 const Calendar = React.lazy(() => import("./pages/Calendar/Calendar"));
 const Correlation = React.lazy(() => import("./pages/Correlation/Correlation"));
 const Timetable = React.lazy(() => import("./pages/Timetable/Timetable"));
@@ -61,12 +61,53 @@ const App = () => {
             <Route path={PRIVATE} element={<PrivateRoute />}>
               <Route index element={<Home />} />
               <Route path={HOMEPRIVATE} element={<Home />} />
+              <Route
+                path={`${LOGIC}`}
+                element={
+                  <Couse
+                    titlePrimary={"Lógica Computacional"}
+                    titleSecondary={"Lógica Computacional"}
+                    cardName={"cardsLogic"}
+                  />
+                }
+              />
               <Route path={`${LOGIC}/:id`} element={<ComputationalLogic />} />
+              <Route
+                path={`${TECHNIQUE}`}
+                element={
+                  <Couse
+                    titlePrimary={"Técnicas de Programación"}
+                    titleSecondary={"Técnicas de Programación"}
+                    cardName={"cardsCoding"}
+                  />
+                  //
+                }
+              />
               <Route
                 path={`${TECHNIQUE}/:id`}
                 element={<ProgrammingTechniques />}
               />
+              <Route
+                path={`${DATABASE}`}
+                element={
+                  <Couse
+                    titlePrimary={"Base de Datos"}
+                    titleSecondary={"Administración de Base de Datos"}
+                    cardName={"cardsBase"}
+                  />
+                }
+              />
               <Route path={`${DATABASE}/:id`} element={<DataBasePage />} />
+              <Route
+                path={`${MATH}`}
+                element={
+                  <Couse
+                    titlePrimary={"Análisis Matemático"}
+                    titleSecondary={"Elementos de Análisis Matemático"}
+                    cardName={"cardsMath"}
+                  />
+                }
+              />
               <Route path={`${MATH}/:id`} element={<MathematicalAnalysis />} />
               <Route path={RECORDING} element={<Recording />} />
               {/* <Route path={`${RECORDING}:id`} element={<RecordingElement />} /> */}
