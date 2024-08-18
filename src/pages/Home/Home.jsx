@@ -1,11 +1,13 @@
 import Header from "../../components/Header/Header";
 import Start from "../../components/Start/Start";
 import Notes from "../../components/Notes/Notes";
+import DiscordInvitation from "../../components/DiscordInvitation/DiscordInvitation";
 import StartPublic from "../../components/StartPublic/StartPublic.jsx";
 import {
   classicIcons,
   classicPrivateIcons,
 } from "../../components/Header/headerInfo.js";
+// import Application from "../../components/Application/Application";
 import Footer from "../../components/Footer/Footer.jsx";
 import { useAuthContext } from "../../context/AuthContext.jsx";
 
@@ -24,6 +26,8 @@ const Home = () => {
         />
         {isAuthenticated ? <Notes /> : <StartPublic />}
       </main>
+      {/* <Application /> */}
+      <DiscordInvitation />
       <Footer />
     </>
   );

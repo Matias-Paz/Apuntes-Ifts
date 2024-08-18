@@ -1,4 +1,25 @@
-.virtualClassroom {
+.notes {
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.notes .title {
+  color: var(--primary-contrast);
+}
+
+.notes__link {
+  font-weight: 600;
+}
+
+.notes__link:hover .notes__link--underline {
+  color: var(--primary-contrast);
+}
+
+.notes__link--underline {
+  color: var(--tertiary);
+}
+
+.notesClassroom {
   margin-top: 0.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -7,35 +28,124 @@
   column-gap: 1rem;
 }
 
-.virtualClass__item {
+* {
+  /* outline: 1px solid red; */
+}
+
+.notesCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}
+
+.notesCard {
+  min-height: 10rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: var(--sextenary-contrast);
+  border: var(--secondary) 1px solid;
+  padding: 2rem 1rem 1rem;
+  gap: 1rem;
+}
+
+.notesCard__picture {
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notesCard__img {
+  filter: var(--tertiary-filter);
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.notesCard__link {
+  border: 1px solid var(--primary-contrast);
+  /* color: var(--tertiary); */
+  padding: 0.5rem 1rem;
+}
+
+.notesCard__link:hover {
+  background-color: var(--primary-contrast);
+  color: var(--secondary);
+}
+
+.notesClassroom__item {
   position: relative;
   border: none;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
-  box-shadow: 0px 0px 10px 2px #0000004b;
-}
-
-.virtualClassroom a {
+  /* box-shadow: 0px 0px 10px 2px #0000004b; */
+  box-shadow: 0 0 10px 2px #0000004b;
   padding: 1rem;
+  padding-left: 2rem;
   color: var(--primary-contrast);
   font-size: 1.2rem;
-  gap: 2rem;
+  gap: 1.5rem;
   font-weight: bold;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: var(--sextenary-contrast);
   width: 100%;
 }
 
-.virtualClass__item svg {
+/* * { */
+/* outline: 1px solid red; */
+/* } */
+
+.notesClassroom__item svg {
   filter: var(--tertiary-filter);
   width: 25px;
   height: 25px;
 }
 
-.virtualClassroom a:hover {
+.notesClassroom__item:hover {
   background-color: var(--secondary-contrast);
   color: var(--novena);
+}
+
+.notesClassroom__item--primary {
+  padding: 2rem;
+  box-shadow: unset;
+  background: radial-gradient(
+    circle,
+    var(--secondary-contrast) 10%,
+    transparent 11%
+  );
+  background-size: 1rem 1rem;
+  border: none;
+}
+
+.notesClassroom__item--primary,
+.notesClassroom__item--primary:hover {
+  background-color: var(--tertiary);
+  color: #000;
+  /* box-shadow: ; */
+}
+
+.notesClassroom__paragraphs {
+  box-shadow: 3px 3px 0 #000;
+  display: grid;
+  row-gap: 0.5rem;
+  padding: 1rem;
+  width: 80%;
+  max-width: 50rem;
+  text-align: center;
+  background-color: #fff;
+  font-size: 1rem;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+@media (min-width: 425px) {
+  .notesClassroom {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 }

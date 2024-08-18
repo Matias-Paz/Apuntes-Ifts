@@ -39,14 +39,14 @@ const TimetableText = () => {
           </p>
         )}
         <a
-          className="cards__link"
+          className="notes__link"
           target="_blank"
           rel="noreferrer noopener"
-          href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6H3w6QrzW9MACJGyAGjCOxRqTFgicfVqFGzqYLBeT-b_qoFZJA_rJ-W95K4-FoxpQhN1yPJVGVn94qfBuNL6ynGwwwCYNfIDrqVUw5rP1C21K87N2U5MvJtgzOO-1DhYhhJbayPt-p6IrflOSwtVWpndh8SUHk0zMVZ4Dr7uY1-B3TgcqJk_0isev4LI/s825/Screenshot_2.png"
+          href="https://docs.google.com/spreadsheets/d/1ZZzolUI2P4QyMgDQL25bc5_GqMn5e1z6/edit?gid=2076467786#gid=2076467786"
         >
           Si necesitas el horario del cuatrimestre completo de Desarrollo de
           Software, simplemente{" "}
-          <span className="cards__link--underline">
+          <span className="notes__link--underline">
             haz clic aquí para obtenerlo
           </span>
         </a>

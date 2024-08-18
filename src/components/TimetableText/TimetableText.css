@@ -28,6 +28,7 @@
 .timetable__classesToday {
   padding-top: 0.2rem;
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(42rem, 1fr));
   gap: 0.6rem;
 }
 

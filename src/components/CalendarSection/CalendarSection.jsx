@@ -119,8 +119,6 @@ const CalendarSection = () => {
     setShowModal(false);
   };
 
-  console.log(today);
-
   return (
     <>
       <section className="calendarSection">
