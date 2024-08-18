@@ -231,13 +231,13 @@
 
   .recordingElement__pagination {
     /* justify-content: center; */
-    max-width: 41rem;
+    /* max-width: 50rem; */
     margin: 0 auto;
     gap: 0.5rem;
   }
 
   .recordingElement__pagination button {
-    min-width: 3rem;
+    min-width: 2.5rem;
   }
 
   .recording__img-data {

@@ -1,6 +1,5 @@
 import Header from "../../components/Header/Header";
 import Start from "../../components/Start/Start";
-import Legend from "../../components/Legend/Legend";
 import Notes from "../../components/Notes/Notes";
 import StartPublic from "../../components/StartPublic/StartPublic.jsx";
 import {
@@ -23,7 +22,6 @@ const Home = () => {
           startParagraph={true}
           paragraph={"¡La búsqueda de apuntes perfectos termina aquí!"}
         />
-        {isAuthenticated && <Legend />}
         {isAuthenticated ? <Notes /> : <StartPublic />}
       </main>
       <Footer />

@@ -39,18 +39,25 @@ const myEventsList = [
   {
     start: dayjs("2024-5-16T00:00:00").toDate(),
     end: dayjs("2024-5-1623:59:59").toDate(),
-    title: "Posible Primer parcial de Análisis Matemático",
+    title: "Primer parcial de Análisis Matemático",
     teacher: "María Alicia Piñeiro",
     description: `"Es una fecha posible, depende si hay paro de colectivos", dijo la profesora.`,
   },
 
-  // {
-  //   start: dayjs("2024-5-08T00:00:00").toDate(),
-  //   end: dayjs("2024-5-08T23:59:59").toDate(),
-  //   title: "Posible Primer parcial de Administración de Base de Datos",
-  //   description: `"Es una fecha posible, depende si avanzamos bien con los temas", dijo el profesor. No la tomen como definitiva.`,
-  //   teacher: "Gustavo Virtos",
-  // },
+  {
+    start: dayjs("2024-5-29T00:00:00").toDate(),
+    end: dayjs("2024-5-29T23:59:59").toDate(),
+    title: "Primer parcial de Administración de Base de Datos",
+    teacher: "Gustavo Virtos",
+  },
+
+  {
+    start: dayjs("2024-5-31T00:00:00").toDate(),
+    end: dayjs("2024-5-3123:59:59").toDate(),
+    title: "Primer parcial de Tecnicas en Programación",
+    teacher: "Fernando Melissani",
+    description: `El examen será de múltiple opción y abarcará temas como print, tipos de datos, operadores y variables, comentarios e input, bucles (for, while, else), listas, tuplas, diccionarios, sin incluir break, continue, funciones y excepciones.`,
+  },
 
   {
     start: dayjs("2024-6-18T00:00:00").toDate(),
@@ -111,6 +118,8 @@ const CalendarSection = () => {
   const closeModal = () => {
     setShowModal(false);
   };
+
+  console.log(today);
 
   return (
     <>
