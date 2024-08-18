@@ -1,7 +1,7 @@
 import "./Footer.css";
 import logoutIcon from "/logo.svg";
 import iconMap from "/icon-map.png";
-import iconInstagram from "/icon-instagram.svg";
+// import iconInstagram from "/icon-instagram.svg";
 import iconReloj from "/icon-reloj.png";
 // import iconPhone from "/icon-phone.png";
 import iconEmail from "/icon-email.png";

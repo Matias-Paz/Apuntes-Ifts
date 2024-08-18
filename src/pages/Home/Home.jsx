@@ -7,7 +7,6 @@ import {
   classicIcons,
   classicPrivateIcons,
 } from "../../components/Header/headerInfo.js";
-// import Application from "../../components/Application/Application";
 import Footer from "../../components/Footer/Footer.jsx";
 import { useAuthContext } from "../../context/AuthContext.jsx";
 
@@ -26,7 +25,6 @@ const Home = () => {
         />
         {isAuthenticated ? <Notes /> : <StartPublic />}
       </main>
-      {/* <Application /> */}
       <DiscordInvitation />
       <Footer />
     </>
