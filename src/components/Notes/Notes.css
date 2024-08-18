@@ -98,9 +98,10 @@
 .notesCard__link--disable {
   /* cursor: none; */
   pointer-events: none;
-  background-color: var(--tertiary);
+  background-color: var(--primary-contrast);
+  /* background-color: red; */
   color: var(--secondary-contrast);
-  border: 1px solid var(--secondary-contrast);
+  border: 1px solid var(--primary-contrast);
 }
 
 .notesClassroom__item {
