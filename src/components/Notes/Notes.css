@@ -7,6 +7,13 @@
   color: var(--primary-contrast);
 }
 
+.notesCards__title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+}
+
 .notes__link {
   font-weight: 600;
 }
@@ -50,6 +57,10 @@
   gap: 1rem;
 }
 
+.notesCard h4 {
+  text-align: center;
+}
+
 .notesCard__picture {
   width: 2rem;
   display: flex;
@@ -64,6 +75,15 @@
   height: 100%;
 }
 
+.notesCard__picture--width {
+  width: 3rem;
+  max-height: 2rem;
+}
+
+.notesCard__picture--width img {
+  object-fit: cover;
+}
+
 .notesCard__link {
   border: 1px solid var(--primary-contrast);
   /* color: var(--tertiary); */
@@ -73,6 +93,14 @@
 .notesCard__link:hover {
   background-color: var(--primary-contrast);
   color: var(--secondary);
+}
+
+.notesCard__link--disable {
+  /* cursor: none; */
+  pointer-events: none;
+  background-color: var(--tertiary);
+  color: var(--secondary-contrast);
+  border: 1px solid var(--secondary-contrast);
 }
 
 .notesClassroom__item {

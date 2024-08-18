@@ -161,7 +161,7 @@
   font-weight: bold;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 375px) {
   .footer__container {
     width: 85%;
   }

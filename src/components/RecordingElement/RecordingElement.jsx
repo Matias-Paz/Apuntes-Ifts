@@ -5,7 +5,6 @@ import iconUser from "/icon-user.webp";
 import iconAlert from "/icon-alert.png";
 import iconExclamacion from "/icon-exclamacion.png";
 import "./RecordingElement.css";
-import { RECORDING } from "../../config/paths.js";
 
 function RecordingElement() {
   const itemsPerPage = 4; // Change this value as needed
@@ -37,12 +36,42 @@ function RecordingElement() {
     setCurrentPage(1);
   };
 
-  // Calculate pagination logic
+  // // Calculate pagination logic
   const totalItems = filterRecording.length;
   const totalPages = Math.ceil(totalItems / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
   const currentItems = filterRecording.slice(startIndex, endIndex);
+
+  const getPageNumbers = () => {
+    if (totalPages <= 7) {
+      return Array.from({ length: totalPages }, (_, index) => index + 1);
+    }
+
+    const pages = [];
+    pages.push(1);
+
+    if (currentPage > 4) {
+      pages.push("...");
+    }
+
+    const startPage = Math.max(2, currentPage - 2);
+    const endPage = Math.min(totalPages - 1, currentPage + 2);
+
+    for (let i = startPage; i <= endPage; i++) {
+      pages.push(i);
+    }
+
+    if (endPage < totalPages - 1) {
+      pages.push("...");
+    }
+
+    pages.push(totalPages);
+
+    return pages;
+  };
+
+  // console.log(totalPages);
 
   return (
     <section className="recordingElement container" id="recording">
@@ -123,6 +152,43 @@ function RecordingElement() {
       <div className="recordingElement__pagination">
         <button
           onClick={() => setCurrentPage(prevPage => Math.max(prevPage - 1, 1))}
+          className={`${
+            currentPage !== 1 ? "" : "recordingElement__button--disable"
+          }`}
+        >
+          {"<"}
+        </button>
+
+        {getPageNumbers().map((page, index) => (
+          <button
+            key={index}
+            onClick={() => typeof page === "number" && setCurrentPage(page)}
+            className={`recordingElement__button--width ${
+              currentPage === page ? "recordingElement__button--active" : ""
+            }`}
+            disabled={typeof page !== "number"}
+          >
+            {page}
+          </button>
+        ))}
+
+        <button
+          onClick={() =>
+            setCurrentPage(prevPage => Math.min(prevPage + 1, totalPages))
+          }
+          className={`${
+            currentPage !== totalPages
+              ? ""
+              : "recordingElement__button--disable"
+          }`}
+          disabled={currentPage === totalPages}
+        >
+          {">"}
+        </button>
+      </div>
+      {/* <div className="recordingElement__pagination">
+        <button
+          onClick={() => setCurrentPage(prevPage => Math.max(prevPage - 1, 1))}
           className={` ${
             currentPage !== 1 ? "" : "recordingElement__button--disable"
           } `}
@@ -155,7 +221,7 @@ function RecordingElement() {
         >
           {">"}
         </button>
-      </div>
+      </div> */}
       <div className="recordingElement__legend recordingElement__legend--primary recordingElement__legend--start">
         <img src={iconAlert} alt="icono de importante" />
         <p>

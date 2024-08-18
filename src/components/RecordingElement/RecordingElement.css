@@ -130,7 +130,7 @@
 
   /* padding: 0.7rem 2rem; */
   /* max-height: min-content; */
-  padding: 0.5rem;
+  padding: 0.5rem 0;
   min-width: 2rem;
   max-width: 9rem;
   flex: 10px;
@@ -162,6 +162,16 @@
 .recordingElement__pagination .recordingElement__button--width {
   /* background-color: red; */
   max-width: 1rem;
+}
+
+.recordingElement__pagination .recordingElement__button--width[disabled],
+.recordingElement__pagination
+  .recordingElement__button--width[disabled]
+  :hover {
+  cursor: unset;
+  background-color: var(--sextenary-contrast);
+  color: var(--primary-contrast);
+  border-color: transparent;
 }
 
 .recordingElement__pagination .recordingElement__button--active {

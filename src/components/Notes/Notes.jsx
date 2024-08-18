@@ -2,6 +2,8 @@ import iconLogic from "/icon-logic.png";
 import iconCoding from "/icon-coding.png";
 import iconMath from "/icon-math.png";
 import iconBase from "/icon-base.png";
+import iconObjectDevelopment from "/icon-objectDevelopment.webp";
+import iconModelling from "/icon-modelling.webp";
 import "./Notes.css";
 import { DATABASE, LOGIC, MATH, TECHNIQUE } from "../../config/paths";
 
@@ -24,6 +26,9 @@ const Notes = () => {
       </div>
 
       <div className="notesCards">
+        <div className="notesCards__title">
+          <h4 className="title">Materias de clases</h4>
+        </div>
         <div
           href="https://aulasvirtuales.bue.edu.ar/"
           target="_blank"
@@ -95,6 +100,40 @@ const Notes = () => {
             href={`${import.meta.env.VITE_API}${MATH}`}
           >
             Ver ahora
+          </a>
+        </div>
+        <div target="_blank" rel="noreferrer noopener" className="notesCard">
+          <h4>Desarrollo orientado a objetos</h4>
+          <picture className="notesCard__picture notesCard__picture--width">
+            <img
+              loading="lazy"
+              className="notesCard__img"
+              src={iconObjectDevelopment}
+              alt=""
+            />
+          </picture>
+          <a
+            className="notesCard__link notesCard__link--disable"
+            href={`${import.meta.env.VITE_API}${MATH}`}
+          >
+            Proximamente
+          </a>
+        </div>
+        <div target="_blank" rel="noreferrer noopener" className="notesCard">
+          <h4>Modelado y desarrollo de software</h4>
+          <picture className="notesCard__picture">
+            <img
+              loading="lazy"
+              className="notesCard__img"
+              src={iconModelling}
+              alt=""
+            />
+          </picture>
+          <a
+            className="notesCard__link notesCard__link--disable"
+            href={`${import.meta.env.VITE_API}${MATH}`}
+          >
+            Proximamente
           </a>
         </div>
       </div>
